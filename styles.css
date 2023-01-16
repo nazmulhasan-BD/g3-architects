@@ -1,0 +1,664 @@
+/* google font add link start */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500;1,700&display=swap');
+/* google font add link end */
+
+/* Primary design start */
+body {
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.paragraph {
+    padding: 20px 10px 10px 10px;
+    line-height: 1.5rem;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Primary design end */
+
+/* header design start */
+header {
+    background-color: #FFF4E7;
+}
+
+/* nav bar design start */
+.nav-bar {
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo span {
+    color: #673ab7;
+}
+
+.logo h3 {
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.navbar-wrap {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.nav-link ul {
+    display: flex;
+    justify-items: end;
+    justify-content: flex-end;
+
+}
+
+.logo,
+.nav-link {
+    width: 40%;
+}
+
+ul li {
+    list-style: none;
+    padding: 10px 15px;
+}
+
+ul li:hover {
+    background: #673ab7;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: .6s;
+
+}
+
+/* nav bar design end*/
+
+/* header design end*/
+
+/* Brand new architect group css design style start */
+
+.brand-new-group-section {
+    display: flex;
+    justify-content: center;
+    margin: 120px 0px;
+
+}
+
+.brand-new-group-wrap {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.group-img img {
+    width: 100%;
+}
+
+.group-info {
+    width: 800px;
+    text-align: center;
+}
+
+.group-info p {
+    line-height: 1.5rem;
+    padding: 30px 0;
+}
+
+.group-info h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.explore-more-btn {
+    padding: 15px 20px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: white;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.group-info button:hover {
+    background: #c00735;
+    transition: .6s;
+    cursor: pointer;
+}
+
+/* Brand new architect group css design style end */
+
+
+/* Quick list of Our Features design css start */
+.info {
+    line-height: 1.5rem;
+    padding: 21px 0;
+}
+
+.our-features {
+    display: flex;
+    justify-content: center;
+}
+
+.our-features-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    gap: 50px;
+    align-items: center;
+    width: 537px;
+    height: 304px;
+}
+
+.quick-list {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.features-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.features {
+    color: #673ab7;
+
+}
+
+.features-image-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+/* Quick list of Our Features design css end*/
+
+/* features-love-and-joy design css style start */
+
+.features-love-and-joy-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 8% 0;
+}
+
+.features-love-joy-wrap {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+}
+
+.feature-single-post {
+    border-radius: 5px;
+    box-shadow: 1px 1px 9px #d3cfcf8f;
+    padding: 20px 15px;
+    margin: 20px;
+}
+
+
+
+/* features-love-joy-title and description design start */
+
+
+.features-love-joy-title h2 {
+    border-left: 5px solid #673ab7;
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 2px;
+
+}
+
+.features-love-joy-img {
+    position: relative;
+}
+
+.features-love-joy-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* features-love-joy-title and description design end */
+/* 10 years experience design start */
+.experience-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left: 29%;
+    margin-top: -15%;
+}
+
+
+.experience {
+    width: 200px;
+    background: #673ab7;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* 10 years experience design start */
+
+/* features-love-and-joy design css style end */
+
+/* some facts card css start */
+
+/* .some-fact-wrapper{
+        
+        width: 1440px;
+    } */
+
+.some-facts-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.some-facts-info {
+    padding-left: 4%;
+    margin: 5% 2%;
+
+
+}
+
+.some-facts-info p {
+    line-height: 1.5rem;
+    padding: 25px 0;
+}
+
+.some-facts-card {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #673ab7;
+    padding: 34px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.some-facts-card:hover {
+    background: #662a07;
+    cursor: pointer;
+    transform: translate3d(to right 30deg);
+    transition: 1s;
+    color: white;
+}
+
+.some-facts-card-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.some-facts-info h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* some facts card css end */
+
+/* our sponsor design css start  */
+.our-sponsors-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+}
+
+.sponsor-info-wrapper {
+    text-align: center;
+}
+
+.sponsor-info {
+    width: 40%;
+    text-align: center;
+    margin: 4% 0;
+}
+
+.sponsor-info h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.sponsor-info p {
+    line-height: 1.5rem;
+    padding: 17px 0px;
+}
+
+.sponsor-logo-cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.sponsor-logo img {
+    width: 80%;
+    filter: grayscale(1);
+}
+
+/* our sponsor design css end  */
+
+
+/* our projects css start */
+.our-projects-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-projects-title {
+    text-align: center;
+    margin: 3% 0;
+}
+
+.our-projects-title h2 {
+    font-size: 30px;
+}
+
+.our-projects {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.item-1 {
+    box-sizing: border-box;
+}
+
+.item-1 h4 {
+    padding: 2% 0;
+}
+
+/* our projects css end */
+
+/* footer design style css start */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px;
+    color: white;
+}
+
+.footer-wrapper {
+    width: 90%;
+    background: #153615;
+    text-align: center;
+    padding: 5% 0;
+    border-radius: 10px;
+}
+
+/* footer design style css end */
+
+
+/* Responsive design by css @media Query (mobile and tablet) start from here */
+@media screen and (max-width:688px) {
+
+    /* navbar @media css start */
+
+    .navbar-wrap {
+
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .logo,
+    .nav-link {
+        width: 100%;
+    }
+
+    .logo h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .nav-link ul {
+        flex-direction: column;
+    }
+
+    /* navbar @media css end */
+
+    /* brand new group section @media css start */
+    .brand-new-group-section {
+
+        margin: 0px;
+    }
+
+    .brand-new-group-wrap {
+        flex-direction: column-reverse;
+    }
+
+    .group-img img {
+        width: 100%;
+    }
+
+    .group-info {
+
+        width: 100%;
+    }
+
+    /* brand new group section @media css end */
+
+
+    /* .our-features-wrapper media css start */
+    .our-features-wrapper {
+        flex-direction: column;
+    }
+
+    .features-image-wrap {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .features-details-wrap {
+        padding: 3% 5%;
+    }
+
+    .info {
+        line-height: 1.5rem;
+        padding: 15px 0px;
+
+    }
+
+    /* .our-features-wrapper media css send */
+
+
+    /* .features-love-joy-wrap @media css style sheet start */
+
+    .features-love-joy-wrap {
+        flex-direction: column-reverse;
+    }
+
+    .features-love-joy-info {
+        margin: 100px 0px 0 0;
+
+    }
+
+    .features-love-joy-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* .features-love-joy-wrap @media css style sheet end */
+
+    /* some-facts-info  @media css style start*/
+    .some-fact-wrapper {
+        width: 100%;
+    }
+
+
+    .some-facts-card-wrap {
+        justify-content: space-evenly;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 30px;
+        justify-items: center;
+    }
+
+    .some-facts-info {
+        width: auto;
+        text-align: center;
+        padding: 0px 20px;
+    }
+
+    /* some-facts-info  @media css style end*/
+
+
+    /* sponsor info @media css start */
+    .sponsor-info {
+        width: 100%;
+    }
+
+    .sponsor-logo-cover {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 1rem;
+        padding: 1%;
+    }
+
+
+    .sponsor-logo img {
+        width: 60%;
+    }
+
+    /* sponsor info @media css start */
+
+    /* experience wrapper css start */
+    .experience-wrapper {
+        display: none;
+    }
+
+    /* experience wrapper css end */
+
+    .our-projects {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* Responsive design by css @media Query (mobile and tablet) end from here */
+}
+
+/* for only for card design start*/
+@media screen and (max-width: 400px) {
+    .some-facts-card-wrap {
+        justify-content: space-evenly;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+        justify-items: center;
+    }
+
+
+}
+
+/* for only for card design start*/
+
+/* Responsive css start for Medium or tablet devices */
+
+
+@media screen and (min-width:689px) and (max-width:992px) {
+    /* Group info css start */
+
+    .group-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Group info css end */
+    /* .our-features-wrapper css start */
+    .our-features-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    /* .our-features-wrapper css end */
+
+    /* features-love-joy-wrap css start */
+
+    .features-love-joy-wrap {
+        flex-direction: column;
+        padding: 1%;
+    }
+
+    .experience {
+        margin-left: -300%;
+    }
+
+    /* features-love-joy-wrap css end */
+
+
+
+    /* our projects responsive css start */
+    .our-projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* our projects responsive css end */
+
+
+
+
+    /* .some-facts-card-wrap  */
+    .some-facts-card-wrap {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        grid-row-gap: 50px;
+    }
+
+    .some-facts-card {
+        width: 300px;
+    }
+
+
+
+    .group-img img {
+        width: 100%;
+    }
+
+    .our-sponsor-section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+/* Responsive css end for Medium or tablet devices */
