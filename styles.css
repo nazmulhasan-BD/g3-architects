@@ -244,14 +244,14 @@ ul li:hover {
     display: flex;
     justify-content: center;
     position: relative;
-    margin-left: 29%;
-    margin-top: -15%;
+    margin-left: 39%;
+    margin-top: -12%;
 }
 
 
 .experience {
     width: 200px;
-    background: #673ab7;
+    background: #9772d6;
     text-align: center;
     padding: 30px;
     border-radius: 5px;
